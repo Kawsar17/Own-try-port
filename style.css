@@ -1,0 +1,30 @@
+body{
+  font-family: 'Mukta', sans-serif;
+  margin: 0px;
+}
+h1{
+  font-size: 50px;
+}
+.orange-color{
+  color: orangered;
+}
+section{
+  display: flex;
+}
+.half-width{
+  width: 50%;
+  padding-left: 2%;
+}
+.half-width img{
+  width: 100%;
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(skyblue,honeydew);
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.top-bannar{
+  background-image: url(Image/bg-22.png);
+  background-repeat: no-repeat;
+}
