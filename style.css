@@ -5,10 +5,13 @@ body{
 h1{
   font-size: 50px;
 }
+h2{
+  font-size: 40px;
+}
 .orange-color{
   color: orangered;
 }
-section{
+.flxible-container{
   display: flex;
   margin-bottom: 100px;
 }
@@ -33,4 +36,31 @@ section{
   background-image: url(Image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.exparience-area{
+  background-image: url(Image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack-expariance{
+  border-left: 7px solid;
+  border-image: linear-gradient(green, orangered);
+  border-image-slice: 1;
+}
+#web-dev-experience{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.expariance-item{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+  border-left: 10px;
+
+}
+footer p {
+  text-align: center;
 }
